@@ -89,7 +89,7 @@ DELETE item
 http://localhost:3001/api/<products, tags, or categories>/<id number of requested item>
 ```
 
-When you are creating or updating Products:
+When you are creating Products:
 ```
 "product_name", "price", "stock"
 ```
