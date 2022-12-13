@@ -1,4 +1,5 @@
 // import important parts of sequelize library
+// I don't think this following line of code is required
 // const { STRING } = require('sequelize');
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
