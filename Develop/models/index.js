@@ -12,7 +12,7 @@ Category.belongsToMany(Product, {
     unique: false
   },
 
-  as: 'aliasForProductInIndexJS'
+  as: 'tagged_product_data'
 });
 
 Product.belongsTo(Category, {
@@ -40,7 +40,7 @@ Tag.belongsToMany(Product, {
     model: ProductTag,
     unique: false
   },
-  as: 'aliasTagProduct'
+  as: 'tagged_product_data'
 });
 
 module.exports = {
