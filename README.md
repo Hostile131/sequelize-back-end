@@ -99,13 +99,13 @@ are required items.
 ```
 can be single numbers, or an array of numbers corresponding to the new or updated products Tag IDs.
 
-When you are creating or updating Tags:
+When you are creating Tags:
 ```
 "tag_name"
 ```
 is required.
 
-When you are creating or updating Categories:
+When you are creating Categories:
 ```
 "category_name"
 ```
